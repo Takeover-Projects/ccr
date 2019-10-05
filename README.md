@@ -1,1 +1,1 @@
-# ccr
+# Crypto Coin Resources
