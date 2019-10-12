@@ -1,2 +1,1 @@
 # Crypto Coin Resources
-Testing 
