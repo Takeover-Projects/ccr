@@ -422,7 +422,23 @@
             <div class="featured-box">
               <figure>
                 <div class="icon">
-                  <i class="lni-heart"></i>
+                 <script>
+		   const whiteHeart = '\u2661';
+		   const blackHeart = '\u2665';
+		   const button = document.querySelector('button');
+		   button.addEventListener('click', toggle);
+
+		   function toggle() {
+		     const like = button.textContent;
+		     if(like==whiteHeart) {
+		       button.textContent = blackHeart;
+		     } else {
+		       button.textContent = whiteHeart;
+		     }
+		   }
+                  </script>
+                 <button>♡</button>
+                  <!--<i class="lni-heart"></i>-->
                 </div>
                 <a href="#"><img class="img-fluid" src="assets/img/featured/img-11.jpg" alt=""></a>
               </figure>
